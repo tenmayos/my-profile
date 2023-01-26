@@ -1,0 +1,35 @@
+.navigation {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1.3rem;
+    border-bottom: 0.3rem solid black;
+    /*margin-top: 1rem;*/
+}
+.site-title {
+    font-size: 2.5rem;
+}
+.navigation ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.seperator {
+    border-left: 0.3rem solid rgb(41, 35, 35);
+}
+
+.navigation a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.navigation li:hover {
+    color: gray;
+}
