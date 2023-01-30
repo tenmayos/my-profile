@@ -3,14 +3,17 @@ import { Route, Routes } from "react-router-dom";
 import Projects from "./pages/Projects";
 import About from "./pages/About";
 import ContactMe from "./pages/ContactMe";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
+    {/* Here we can render the header part of the page*/}
+      <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
+        <Route index path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<ContactMe />} />
       </Routes>
     </>
