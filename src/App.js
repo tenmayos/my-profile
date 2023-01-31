@@ -8,7 +8,6 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <>
-    {/* Here we can render the header part of the page*/}
       <Navbar />
       <Routes>
         <Route index path="/" element={<Home />} />
