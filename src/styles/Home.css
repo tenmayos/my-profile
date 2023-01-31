@@ -55,7 +55,7 @@
 }
 
 .home-container a:hover {
-  color: cyan;
+  color: #96e2f0;
   border-bottom: 1px groove darkblue;
   border-radius: 50%;
   text-shadow: 0px 1px 1.2rem;
