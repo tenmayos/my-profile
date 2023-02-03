@@ -1,4 +1,5 @@
 import "../../styles/About.css";
+import OuterLink from "../OuterLink";
 
 export default function EducationSection() {
     return (
@@ -8,9 +9,10 @@ export default function EducationSection() {
             <p className="center">Bachelor's Degree in Management Information Systems <strong>(MIS)</strong></p>
             <p className="center">Alexandria University, Alexandria <strong>(Egypt)</strong></p>
             <div className="img-container">
-                <a href="https://alexu.edu.eg/index.php/en/" rel="noreferrer noopener" target="_blank">
-                    <img src="images/AlexUni_logo.png" alt="University's logo" />
-                </a>
+
+                <OuterLink
+                    content={<img className="alex-logo" src="images/AlexUni_logo.png" alt="University's logo" />}
+                    destination="https://alexu.edu.eg/index.php/en/" />
             </div>
         </section>
     );
