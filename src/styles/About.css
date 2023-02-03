@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+
+
+.intro-section {
+    padding: 7%;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    width: 100%;
+}
+
+.about-header {
+    color: #96e2f0;
+    font-size: 2rem;
+    font-family: "Ubuntu";
+}
+
+.about-desc {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.dark-blue-bg {
+    background-color: #0c0c2c;
+}
+
+.black-bg {
+    background-color: black;
+}
+
+.about-section {
+    margin: auto;
+    padding: 2%;
+    border-radius: 2%;
+}
+
+.about-section h1 {
+    color: #96e2f0;
+    text-align: center;
+    font-family: "Ubuntu";
+}
+
+.about-section p{
+    font-size: 1rem;
+    padding: 2%;
+    line-height: 1.9rem;
+}
+
+.section-2 {
+    background-color: #0c0c2c;
+    margin: auto;
+    padding: 2%;
+}
+
+.center {
+    text-align: center;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+}
+
+.img-container img {
+    height: 120px;
+    width: auto;
+}
