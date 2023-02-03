@@ -1,10 +1,3 @@
-/*body {
-  height: 100%;
-  margin: 0;
-  background-image: linear-gradient(#10057A, black);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}*/
 * {
   box-sizing: border-box;
 }
@@ -13,4 +6,5 @@ body {
   margin: 0;
   color: white;
   background: linear-gradient(#060B46, black) fixed;
+  /*background: linear-gradient(#0c0c2c, black) fixed;*/
 }
