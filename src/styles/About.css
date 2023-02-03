@@ -45,12 +45,6 @@
     line-height: 1.9rem;
 }
 
-.section-2 {
-    background-color: #0c0c2c;
-    margin: auto;
-    padding: 2%;
-}
-
 .center {
     text-align: center;
 }
@@ -62,6 +56,13 @@
 }
 
 .img-container img {
-    height: 120px;
     width: auto;
+}
+
+.alex-logo {
+    height: 120px;
+}
+
+.nextjs-logo {
+    height: 200px;
 }
