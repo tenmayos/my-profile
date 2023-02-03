@@ -1,4 +1,4 @@
-import "../../styles/About";
+import "../../styles/About.css";
 
 export default function MainSkillsSection() {
     return (
