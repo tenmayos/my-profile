@@ -2,7 +2,7 @@
     background-color: black;
     overflow: hidden;
     display: block;
-    position: static;
+    position: sticky;
     border-bottom: 2px solid black;
   }
   
@@ -16,7 +16,6 @@
 
   .topnav li {
     display: inline-block;
-    
   }
 
   .topnav a {
@@ -38,3 +37,8 @@
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.05);
   }
   
+.footer-section {
+  border-top: 1px solid black;
+  text-align: center;
+  padding: 3%;
+}
