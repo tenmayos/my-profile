@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
 
+/* TODO: Use google's import for Ubuntu font */
+
 .intro-section {
     padding: 7%;
     margin-top: 25%;
@@ -44,6 +46,32 @@
     font-size: 1rem;
     padding: 2%;
     line-height: 1.9rem;
+}
+
+
+
+.about-desc ul {
+    list-style: circle;
+}
+
+.about-desc li {
+    margin-top: 1em;
+    width: fit-content;
+    transition: all 0.5s;
+}
+
+.about-desc li:hover {
+    color: #96e2f0;
+    list-style: disc;
+}
+
+.about-desc a {
+    color: white;
+    transition: color 0.5s;
+}
+
+.about-desc a:visited {
+    color: #96e2f0;
 }
 
 .center {
