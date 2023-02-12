@@ -9,10 +9,10 @@ export default function About() {
     return (
         <>
             <section className="intro-section">
-                <h1 className="about-header">
+                <h1 className="intro-header">
                     I'm Bassam Saleh
                 </h1>
-                <h3 className="about-desc">
+                <h3 className="intro-desc">
                     Programmer and Video games enthusiast
                 </h3>
 
