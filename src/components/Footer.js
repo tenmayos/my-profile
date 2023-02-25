@@ -13,15 +13,15 @@ export default function Footer() {
 
             {/* Discord add link */}
             <OuterLink destination="https://discordapp.com/users/165250441230155776" className="clickable"
-            content=<i className="fa-brands fa-discord fa-lg margin"></i> />
+            content=<i className="fa-brands fa-discord fa-lg f-logo-margin"></i> />
             
             {/* Github profile link */}
             <OuterLink destination="https://github.com/tenmayos" className="clickable"
-            content=<i className="fa-brands fa-github fa-lg margin"></i> />
+            content=<i className="fa-brands fa-github fa-lg f-logo-margin"></i> />
             
             {/* LinkedIn profile link */}
             <OuterLink destination="https://www.linkedin.com/in/bassam-al-nezi-520940164/" className="clickable"
-            content=<i className="fa-brands fa-linkedin fa-lg margin"></i> />
+            content=<i className="fa-brands fa-linkedin fa-lg f-logo-margin"></i> />
         </footer>
     );
 }
