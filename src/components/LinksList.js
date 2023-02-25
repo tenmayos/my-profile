@@ -1,5 +1,10 @@
 import { Link } from "react-router-dom";
 
+/**
+ * 
+ * @param {{showIndex: bool}} props
+ */
+
 export default function LinksList(props) {
 
     return (
