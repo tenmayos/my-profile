@@ -1,7 +1,8 @@
 import { useState } from "react";
 /**
  * 
- * @param {{destination: string, className: string, content: any}} props 
+ * @param {{destination: string, className: string, content: any}} props
+ * @description Creates an anchor HTML tag that leads outside of the website and follows project's standards.
  */
 export default function OuterLink(props) {
 
