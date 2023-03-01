@@ -15,7 +15,6 @@ export default function About() {
                 <h3 className="intro-desc">
                     Programmer and Video games enthusiast
                 </h3>
-
             </section>
             <BackgroundSection />
             <EducationSection />
