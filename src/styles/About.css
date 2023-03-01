@@ -96,6 +96,9 @@
     height: 200px;
 }
 
+.text-center {
+    text-align: center;
+}
 
 @media (min-width: 800px) {
 
