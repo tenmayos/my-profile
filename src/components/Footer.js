@@ -4,7 +4,7 @@ import "../styles/Footer.css";
 
 export default function Footer() {
 
-    const startYear = 2023;
+    const startYear = 2022;
     const currentYear = new Date().getFullYear();
 
     return (
